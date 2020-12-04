@@ -1,0 +1,7 @@
+SELECT count(*) as QUANTIDADE, MONTH(n.created) as MES, o.nome as SECRETARIA
+  FROM [dbPortalPMVV].[dbo].[noticias] n
+  INNER JOIN noticias_orgaos no on n.id = no.noticia_id
+  INNER JOIN orgaos o on no.orgao_id = o.id
+  where YEAR(n.created) = 2019
+  group by MONTH(n.created), o.nome
+  order by 2

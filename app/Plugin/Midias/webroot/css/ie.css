@@ -1,0 +1,17 @@
+/*
+	
+	Copyright (C) 2011 - 4Ps
+	
+	-------------------------------------------------------
+	Ajustes na renderizaÃ§Ã£o do Internet Explorer
+	-------------------------------------------------------
+
+*/
+
+.content legend{margin-bottom:1.6em} /* IE form margin bug */
+sup, sub{font-size:100%} /* IE superscript & subscript bug */
+* html .content textarea, * html .content input{padding:0} /* IE < 7 form fix */
+.content input[type='submit'], .content input[type='button']{padding:0} /* IE 7 button fix */
+.content legend+*{margin-top:0} /* we already added legend margin */
+a abbr, a acronym{text-decoration:underline} /* IE 7 bug */
+* html .content blockquote *{margin:.8em 0}

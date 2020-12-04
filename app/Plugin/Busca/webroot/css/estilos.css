@@ -1,0 +1,12 @@
+.busca { width: 300px; float: left; }
+
+.busca .input { float: left; width: 150px; }
+
+.busca .texto { color: #444; font-size: 13px; width: 135px; border: none;
+        padding: 7px 3px 5px 12px; margin: 0; background: url(../img/input.jpg) no-repeat; }
+
+.busca .modelo { color: #444; font-size: 13px; width: 108px; border: none;
+         padding: 6px 6px 6px 0; margin: 0; background: url(../img/select.jpg) no-repeat; }
+
+.busca .enviar { border: none; padding: 6px 14px 6px 13px; margin-left: -45px;
+         background: url(../img/search.jpg) no-repeat; }

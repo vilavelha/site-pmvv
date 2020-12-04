@@ -1,0 +1,17 @@
+Para usar o plugin para buscas deve-se usar o procedimento abaixo:
+
+1 - Copiar a pasta do plugin para a pasta app/plugins do sistema com o nome busca
+
+2 - Configurar os models de que deseja buscar no app/config/core.php conforme exemplo abaixo:
+    $modelos = array(
+        'Noticia' => array('campo' => 'titulo', 'mostrarLink' => true), //busca simples no model Noticia na propriedade título
+        'Ramal' => array('campo' => array('numero' => array('Funcionario' => 'nome')), 'mostrarLink' => false) //busca model Relacionado 1:n Ramal pertence a um Funcionário
+    );
+    Configure::write('Busca.modelos', $modelos);
+    Obs 1.: O plugin ainda não aceita relacionamentos n:m;
+    Obs 2.: O mesmo pode ter 1 ou vários modelos para a pesquisa;
+
+3 - Chamar o elemento do plugin na view que deseja que tenha o formuário de busca:
+    <?php echo $this->element('formulario', array('plugin' => 'busca')); ?>
+
+4 - Para personalizar o estilo basta alterar o css em app/plugins/busca/webroot/css/estilos.css:
