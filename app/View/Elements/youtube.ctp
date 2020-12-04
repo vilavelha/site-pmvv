@@ -1,5 +1,6 @@
 <div class="row" id="vilavelha-em-dia">
-	<div class="servicosPara col-md-12 col-lg-12">
+  <!--Comentado fmbs-->
+  <!--<div class="servicosPara col-md-12 col-lg-12">
 		<h3 class="titulo-capa">VILA VELHA EM DIA <i class="fa fa-television" aria-hidden="true"></i></h3>
 	</div>
 	<div class="col-md-12 col-lg-12">
@@ -12,5 +13,5 @@
 	</div>
 	<div class="col-md-12 col-lg-12 text-center">
 		<?php echo $this->Html->link('Clique aqui para visualizar mais vídeos.', array('controller' => 'videos', 'action' => 'index')); ?>
-	</div>
+	</div>-->
 </div>

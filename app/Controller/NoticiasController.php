@@ -149,7 +149,7 @@ class NoticiasController extends AppController
 
 		$this->paginate = array(
 			'Noticia' => array(
-				'limit' => 20,
+				'limit' => 5,
 				'order' => array(
 					'Noticia.created' => 'DESC',
 					'Noticia.id' => 'DESC'

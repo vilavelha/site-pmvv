@@ -58,6 +58,5 @@
         </div>
     </div>
     <?
-php ec
-ho $this->Js->writeBuffer(); ?>
+php echo $this->Js->writeBuffer(); ?>
 </div>

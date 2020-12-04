@@ -301,7 +301,8 @@ $outrosOrgaos = $this->requestAction(array('controller' => 'coordenadorias', 'ac
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
         integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"> -->
     </script>
-    <script>
+   
+   <!--  <script>
     $(function() {
         $("#dialog").dialog({
             width: 800,
@@ -309,6 +310,7 @@ $outrosOrgaos = $this->requestAction(array('controller' => 'coordenadorias', 'ac
         });
     });
     </script>
+	-->
 </body>
 
 </html>
